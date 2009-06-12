@@ -1,0 +1,15 @@
+Changelog
+=========
+
+
+0.2 - 2009/02/16
+----------------
+
+* Changing colours and layout as per requests
+
+
+0.1 - 2009/01/05
+----------------
+
+* Initial release
+
