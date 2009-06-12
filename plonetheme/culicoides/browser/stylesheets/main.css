@@ -1,0 +1,270 @@
+/* Stylesheet for the 'Culicoides theme' Plone theme */
+
+/* SWATCH VALUES: D8A554,EDECE3,465D5F,5B8261,4168e1 */
+
+/*** BODY ***/
+body {
+	padding: 0px 50px;
+	background-color: #E0E0E0;
+	color: rgb (34, 34, 34);
+	font-family: arial, 'Lucida Grande', verdana, sans-serif;
+	font-size: 12px;
+	line-height: 2.0em;
+	letter-spacing: -0.01em;
+}
+
+#visual-portal-wrapper {
+	background: white;
+}
+
+
+/*** TOP ELEMENTS ***/
+
+#portal-top {
+	background-color: #cd0000;
+}
+
+
+#portal-logo {
+	background-position: top left;
+	margin: 0 !important;
+}
+
+#portal-logo a {
+	margin: 0 !important;
+}
+
+#portal-logo img {
+	margin: 0 !important;
+}
+
+#portal-header {
+	padding: 0;
+	height: 121px;
+} 
+
+#portal-globalnav {
+	display: none;
+}
+
+/* push breadcrumbs and tools to be on same level */
+#portal-breadcrumbs {
+	background-color: white;
+	border: none;
+}
+
+#portal-personaltools {
+	padding-top: 1.0em;
+	padding-right: 1em;
+	background: transparent;
+	border-width: 0;
+}
+
+#portal-personaltools * {
+	color: white !important;
+}
+
+#portal-searchbox {
+	margin: 0;
+	padding: 0;
+	padding-right: 1em;
+	padding-top: 0.5em;
+}
+
+#portal-searchbox * {
+	color: #cd3700;
+}
+
+
+#portal-searchbox label {
+	color: white !important;
+}
+
+#portal-siteactions {
+	float: right;
+	margin: 0;
+	padding: 0;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	border-width: 0;
+	color: white !important;
+}
+
+#portal-siteactions * {
+	color: white !important;
+	border-width: 0 !important;
+}
+
+
+/*** SIDEBARS ***/
+
+
+dt.portletHeader {
+	background: #cd0000;
+	color: white !important;
+}
+
+dt.portletHeader a {
+	color: white !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.portlet, .portletHeader {
+	border-width: 0;
+}
+
+.portlet *, .ploneCalendar {
+	border-width: 0;
+}
+
+.portletHeader a {
+	margin-left: auto;
+	margin-right: auto;
+	font-variant: small-caps;
+   font-size: 120%;
+}
+
+
+/*** MAIN BODY ***/
+
+#portal-column-content {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.documentContent {
+	margin-top: 0;
+	padding-top: 0;
+	padding-left: 1.0em;
+	padding-right: 1.0em;
+}
+
+.documentDescription {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+
+a {
+	color: #4169e1;
+	text-decoration: none;
+}
+
+a:hover {
+   color: #ffc125;
+}
+
+pre {
+    font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 0.95em;
+    letter-spacing: 0.015em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+hr {
+    border: 1px solid #abc;
+    margin: 2em;
+}
+
+tt {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+
+dl {
+    margin-bottom: 15px;
+}
+
+dd p {
+    margin-top: 0px;
+}
+
+dd ul, dd table {
+    margin-bottom: 10px;
+}
+
+dd {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+
+/*** HEADERS */
+
+h1, h2, h3 {
+	font-variant: small-caps;
+	font-weight: bold;
+	border-width: 0;
+}
+
+h1 {
+	font-size: 1.5em;
+	color: #417378;
+}
+
+h2 {
+	font-size: 1.35em;
+}
+
+h3 {
+	font-size: 1.15em;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+   color: black!important;
+	border-width: 0;
+	text-decoration: none;
+	font-family: georgia, serif;
+	text-transform: uppercase;
+	
+}
+
+h1 a.anchor, h2 a.anchor, h3 a.anchor, h4 a.anchor, h5 a.anchor, h6 a.anchor {
+    display: none;
+    margin: 0 0 0 0.3em;
+    padding: 0 0.2em 0 0.2em;
+    color: #aaa!important;
+}
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor,
+h5:hover a.anchor, h6:hover a.anchor {
+    display: inline;
+}
+
+h1 a.anchor:hover, h2 a.anchor:hover, h3 a.anchor:hover, h4 a.anchor:hover,
+h5 a.anchor:hover, h6 a.anchor:hover {
+    color: #777;
+    background-color: #eee;
+}
+
+
+/*** BOTTOM ELEMENTS ***/
+
+#div-portal, #portal-colophon {
+	width: 80%;
+	font-size: 90%;
+	background-color: transparent;
+}
+
+#portal-footer {
+	background-color: #EBEBEB;
+}
+
+.footer {
+	text-align: center;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+}
+
+
+/*** END ********************************************************************/

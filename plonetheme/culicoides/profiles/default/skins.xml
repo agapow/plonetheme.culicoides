@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="Culicoides theme">
+
+ <object name="plonetheme_culicoides_custom_images"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.culicoides:skins/plonetheme_culicoides_custom_images"/>
+ <object name="plonetheme_culicoides_custom_templates"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.culicoides:skins/plonetheme_culicoides_custom_templates"/>
+ <object name="plonetheme_culicoides_styles"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.culicoides:skins/plonetheme_culicoides_styles"/>
+
+ <skin-path name="Culicoides theme" based-on="Plone Default">
+  <layer name="plonetheme_culicoides_custom_images"
+     insert-after="custom"/>
+  <layer name="plonetheme_culicoides_custom_templates"
+     insert-after="plonetheme_culicoides_custom_images"/>
+  <layer name="plonetheme_culicoides_styles"
+     insert-after="plonetheme_culicoides_custom_templates"/>
+ </skin-path>
+
+</object>
